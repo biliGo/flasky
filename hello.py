@@ -15,7 +15,7 @@ app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
 # app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'lessguo@163.com'
-app.config['MAIL_PASSWORD'] = 'guo5201314'
+app.config['MAIL_PASSWORD'] = '********'
 mail = Mail(app)
 
 if __name__ == '__main__':
